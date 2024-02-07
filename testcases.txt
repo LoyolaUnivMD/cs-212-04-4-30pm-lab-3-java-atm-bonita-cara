@@ -1,0 +1,38 @@
+Test Case 1:
+    name -> Ck -> Welcome to the ATM Ck
+    B -> 212.90
+    d -> 20.00
+    B -> 232.90
+    e -> Exit message
+
+Test Case 2:
+    name -> Bonita -> Welcome to the ATM Bonita
+    B -> 212.90
+    W -> 210.90
+    B -> 2.90
+    e -> Exit message
+
+Test Case 3:
+    name -> Bonita -> Welcome to the ATM Bonita
+    B -> 212.90
+    d -> -50 -> Error -> 0
+    W -> 50
+    b -> 162.90
+
+Test Case 4:
+    name -> Carah -> Welcome to the ATM Carah
+    B -> 212.90
+    w -> 46
+    b -> 166.90
+    D -> 46.10
+    B -> 213.00
+    E -> Exit
+
+Test Case 5:
+    name -> Gigi -> Welcome to the ATM Gigi
+    B -> 212.90
+    g -> Error -> B -> 212.90
+    W -> 12.90
+    d -> 100
+    B -> 300.00
+    E -> Exit

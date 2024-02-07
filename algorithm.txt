@@ -1,1 +1,35 @@
+Ask user for name input via Scanner set to variable name
+Print welcome message
 
+menu options method
+        Gives user list of options
+
+deposit method
+        Ask user how much they want to deposit
+        While deposit is less than 0 or deposit not isDigit()
+            Error message
+            Ask user for input again
+        Balance += deposit input
+
+withdraw method
+        Ask user how much they want to withdraw
+        While deposit is less than 0 or withdraw not isDigit()
+            Error message
+            Ask user for input again
+        Balance -= withdraw input
+
+main
+        Initialize variables
+        Provide user list of options: D - deposit, W - withdraw, B - balance, E - exit
+        While input isn't E,
+            If input is B
+                Print balance
+            Otherwise If input is D
+                call deposit method
+            Otherwise If input is W
+                call withdraw method
+            Else
+                Error message to user
+                Provide user option list again
+            Provide user option list again
+        Exit message
