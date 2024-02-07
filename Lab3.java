@@ -3,12 +3,12 @@
 // Due Date: Sunday, February 11, 2024
 // Lab Assignment: Java ATM
 // Problem Statement: You work at a bank and your current project is to design and implement a new interface for a new generation of ATMs.
-// Data In: name,
-// Data Out:
-// Credits: [Is your code based on an example in the book, in class, or something else?
-//            Reminder: you should never take code from the Internet or another person
+// Data In: name, choice (d, w, b, e), deposit amount, withdrawal amount
+// Data Out: balance, updated balance (based on withdraw/deposit)
+// Credits: none
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 class Lab3 {
     public static void main(String[] args) {
